@@ -1,7 +1,7 @@
 <!--
  ~ The MIT License
  ~
- ~ Copyright (c) 2018, CloudBees, Inc.
+ ~ Copyright (c) 2018-2019, Bodybuilding.com, CloudBees, Inc.
  ~
  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
  ~ of this software and associated documentation files (the "Software"), to deal
@@ -22,16 +22,6 @@
  ~ THE SOFTWARE.
  -->
 <div>
-    <p>
-        Some sources can permit change request / pull request from external entities. As part of the configuration of
-        such sources you can configure how to determine if a change request / pull request originates from a trusted
-        or untrusted user.
-    </p>
-    <p>
-        When enabled, this option will only automatically build a change request / pull request if it originate
-        from a trusted user (according to your configuration of the source)
-    </p>
-    <p>
-        <strong>WARNING:</strong> this option is only as good as your configuration of the trust policy in the source.
-    </p>
+  Defines the minimum number of ticks (date/time) that the github commit must come after before we consider running the build.  Allows us
+  to basically say - do not run build unless it is after a specific time.  Useful if you want to migrate jenkins to a new Git source without rebuilding all branches.
 </div>

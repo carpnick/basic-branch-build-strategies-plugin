@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  *
  */
-package jenkins.branch.buildstrategies.basic.harness;
+package jenkins.branch.buildstrategies.time.harness;
 
 import hudson.Extension;
 import hudson.model.FreeStyleProject;

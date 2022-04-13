@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  *
  */
-package jenkins.branch.buildstrategies.basic.harness;
+package jenkins.branch.buildstrategies.time.harness;
 
 import edu.umd.cs.findbugs.annotations.CheckForNull;
 import edu.umd.cs.findbugs.annotations.NonNull;
